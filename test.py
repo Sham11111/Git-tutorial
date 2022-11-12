@@ -3,10 +3,10 @@ from payment import calculate as cal
 def test(a, b):
     c = cal(a, b)
 
-    test_c = a - b
+    test_a = a + b
 
-    assert c == test_c
+    assert c == test_a
 
-test(10, 20)
-test(1, 15)
-test(40, 150)
+test(11, 22)
+test(2, 16)
+test(50, 1632)
